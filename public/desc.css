@@ -1,0 +1,67 @@
+/* Add your CSS styles here */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Dela Gothic One', cursive;
+    background-color: transparent;
+    color: black;
+    text-align: start;
+    padding: 120px 0;
+    max-width: auto;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color:black;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color:black;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 18px;
+    color: #000000;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap as needed */
+  }
+
+  .image-grid li {
+    width: 50%; /* Each item takes up 50% of the container (2 items per row) */
+  }
+
+  .image {
+    width: 50%;
+    height: auto; /* Maintain aspect ratio */
+  }

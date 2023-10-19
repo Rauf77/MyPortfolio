@@ -1,0 +1,45 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/desc.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <h1><%= project.title %></h1>
+    <p><%= project.subtitle %></p>
+
+    <h2>Description</h2>
+    <p><%= project.description %></p>
+
+    <h2>Languages Used</h2>
+    <ul>
+        <% project.languages.forEach(function(language) { %>
+            <li><%=  language %></li>
+        <% }); %>
+    </ul>
+
+    
+    
+
+    <!-- <h2>Additional Images</h2>
+    <ul>
+        <img src="<%= project.coverPhoto %>" alt="Cover Photo" />
+        <% project.images.forEach(function(image) { %>
+            <li>
+                <img src="<%= image.url %>" alt="<%= image.alt %>" />
+            </li>
+        <% }); %>
+    </ul> -->
+    <h2>Additional Images</h2>
+    <ul class="image-grid">
+        <img src="<%= project.coverPhoto %>" alt="Cover Photo" />
+        <% project.images.forEach(function(image) { %>
+         <li>
+            <img src="<%= image.url %>" alt="<%= image.alt %>" class="image" />
+        </li>
+        <% }); %>
+</ul>
+  
+
+
+    <a href="<%= project.projectUrl %>" class="btn btn-primary">Learn More</a>
+</body>

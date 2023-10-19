@@ -1,0 +1,242 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/* Style for the fullscreen-section */
+.fullscreen-section {
+    background-color:transparent;
+    color:beige;
+    text-align: start;
+    padding: 120px 0;
+    font-family: 'Dela Gothic One', cursive;
+    /* font-family: 'League Spartan', sans-serif; */
+}
+
+/* Style for the section-content */
+.section-content {
+    max-width: auto;
+    margin: 50px ;
+}
+
+/* Style for the h1 element */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+   
+    
+}
+
+/* Style for the p element */
+p {
+    font-size: 18px;
+  
+}
+
+/* Style for the Learn More button */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style for the Learn More button on hover */
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the about section */
+#about {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+    font-family: 'Dela Gothic One', cursive;
+    max-width: 100%; /* Set max-width to 100% to make it full-width */
+    margin: 0; /* Remove any margins to ensure full-width */
+}
+
+/* Style for the container within the about section */
+.container {
+    max-width: 100%;
+}
+
+/* Style for the heading (About Me) */
+#about h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    
+}
+
+/* Style for the paragraphs */
+#about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin: 20px;
+    
+}
+
+/* Style for the image */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Style the container */
+#projects.container {
+    padding: 50px 0;
+    max-width: 100%; /* Set max-width to 100% to make it full-width */
+    margin: 0; /* Remove any margins to ensure full-width */
+}
+
+/* Center the heading and description */
+#projects h2,
+#projects p {
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+/* Style the project cards */
+.card {
+    margin: 10px 10px 20px 20px;
+    border: 10px solid black; /* Add a black border */
+    
+    color: #666;/* Set a grey background */
+}
+
+
+.card-title {
+    font-size: 1.5rem;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.card-text {
+    font-size: 1rem;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Style for the Contact section */
+#contact {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    font-family: 'Dela Gothic One', cursive;
+    max-width: 100%; /* Set max-width to 100% to make it full-width */
+    margin: 0; /* Remove any margins to ensure full-width */
+}
+
+/* Style for the Contact Form */
+.form-group {
+    margin: 20px;
+    text-align: start;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for Contact Information */
+.col-lg-6 {
+    text-align: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-color: #333;
+}
+
+/* Style for the navigation links */
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Style for the about section */
+
+
+/* Style the container */
+
+
+/* Style for the Contact section */
+
+
+footer{
+    margin: 20px 0 20px 0;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .col-lg-6 {
+        margin-top: 20px;
+    }
+}

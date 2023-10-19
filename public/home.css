@@ -1,0 +1,51 @@
+/* home.css */
+
+body {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    background-color: bisque;
+}
+
+p {
+    margin: 0;
+}
+
+/* Custom styles */
+.portfolio-title {
+    margin-top: 20px;
+    margin-left: 2pt;
+    text-align: justify;
+    line-height: 58.55pt;
+    font-family: Calibri;
+    font-size: 48pt;
+    color: black;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.contact-info {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 15.85pt;
+    font-family: Calibri;
+    font-size: 13pt;
+}
+
+.name {
+    letter-spacing: 1.85pt;
+    color: black;
+}
+
+.phone {
+    letter-spacing: 7.1pt;
+    color: black;
+}
+
+.email {
+    letter-spacing: 2.05pt;
+    color: black;
+}
+
+.links {
+    letter-spacing: 7.6pt;
+    color: black;
+}

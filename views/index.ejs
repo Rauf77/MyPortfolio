@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partial/header.ejs') %>
+<body>
+
+<!-- Navigation Bar -->
+<%- include('./partial/navBar.ejs') %>
+
+<!-- Home Section -->
+<%- include('./home.ejs') %>
+
+<!-- About Section -->
+<%- include('./about.ejs', data) %>
+
+<!-- My Projects Section -->
+<%- include('./projects.ejs', { projects: projects }) %>
+
+<!-- Contact Section -->
+<%- include('./contact.ejs', data) %> <!-- Pass 'data' to the 'contact' section -->
+<%- include('./partial/footer.ejs') %>
+
+<!-- Add Bootstrap and custom JavaScript here, if needed -->
+
+</body>
+</html>
